@@ -1,0 +1,59 @@
+body{
+   
+    font-family: sans-serif,Arial, Helvetica;
+    text-align: center;
+    background-image: url(./mario-bg.jpg);
+    background-size: cover;
+
+}
+.titan-one-regular {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+#board{
+    width: 540px;
+    height: 540px;
+    /* background-color: green; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(./soil.png);
+    background-size: cover;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+#board div{
+    width: 180px;
+    height: 180px;
+    background-image: url(./pipe.png);
+    background-size: cover;
+ }
+ #board div img{
+    width: 100px;
+    height: 100px;
+
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+ }
+ #start{
+    width:auto;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+ }
+ #start img{
+    width:500px;
+    height:300px;
+ }
+ /* html,body  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ } */
